@@ -1,0 +1,247 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border:border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-logo{
+    height:50px;
+    width:113px;
+    background-image: url("images/amazon_logo.png");
+    background-size: cover;
+
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border:2px solid white;
+}
+.addicon{
+    display: flex;
+
+}
+.box2
+{
+    color:#cccccc;
+    font-size: 0.8rem;
+    padding-left: 15px;
+ 
+}
+
+.addicon{
+    font-size: 1rem;
+    color: white;
+}
+
+/**Started styling box 3**/
+.box3{
+    display: flex;
+    height:38px;
+    width:700;
+    
+}
+.box3:hover{
+    border:2px solid #febd68;
+    border-radius:4px ;
+    
+}
+#select-category{
+    background-color: #E6E6E6;
+    font-size: 14px;
+    height:38px;
+    border: none;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+}
+#search-box{
+    border:none;
+    width:600px;
+    font:15px;
+}
+#search-button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:45px;
+    height:38px;
+    border:none;
+    color:black;
+    font-size: 20px;
+    background-color: #febd68;
+    border-top-right-radius:4px;
+    border-bottom-right-radius: 4px;
+    
+}
+span{
+    font-size: 0.75rem;
+
+}
+.nav-line2{
+    font-size:0.8rem;
+    font-weight: 700;
+}
+.box7{
+    display: flex;
+    font-size: 30px; 
+    justify-content: baseline;
+}
+
+/* Styling the panel bar from here */
+.panel-bar{
+    display:flex;
+    background-color: #222f3d;
+    color:white;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+}
+.panel-list p{
+    display: inline;
+    margin: 10px;
+}
+.panel-list{
+    width: 70%;
+    font-size: 1rem;
+}
+
+/* Started styling the heading section from here */
+.hero{
+    background-image: url("images/hero_image.jpg");
+    /* width: 600px; */
+    height:300px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background: #f5f6f6;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 90%;
+    margin:25px;
+}
+.hero-msg a{
+    color:#007185;
+    text-decoration: none;
+}
+.hero-msg a:hover{
+    text-decoration: underline;
+    font-size: 0.8 rem;
+}
+
+/* Start styling of boxes from here */
+.box-container{
+    display:flex;
+    width:100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    background-color: #e2e7e6;
+}
+.box{
+    width: 23%;
+    height:325px;
+    /* border: 1px solid black; */
+    margin-top: 1rem;
+    background-color: #f5f6f6;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+.image-container{
+    width: 90%;
+    height:80%;
+    margin-left: 5% ;
+    margin-top: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.box p{
+    color: #007185;
+    font-size: 0.8rem;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.box h2{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+/* We will design our footr from here */
+.footer-panel1{
+    background-color: #37475a;
+    height:49px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 0.9rem;
+
+}
+.footer-panel2{
+    background-color: #222f3d;
+    height:350px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    display: block;
+    list-style-type: none;
+    color: white;
+}
+li{
+    padding: 3px;
+    font-size: 0.8rem;
+}
+li a{
+    color:#DDDD;
+}
+li p{
+    padding: 10px 10px 10px 0px;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+.footer-panel3{
+    margin-top: 0.5px;
+    height:68px;
+    width: 100%;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-panel4{
+    height: 77px;
+    width:100%;
+    background-color:#131a22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.panel4-hori{
+    display: flex;
+    color:#E6E6E6;
+    height:30px;
+    width:60%;
+    font-size: 0.75rem;
+    justify-content: space-evenly;
+}
